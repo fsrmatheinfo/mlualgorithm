@@ -1,0 +1,17 @@
+%! Package = mlualgorithm
+%! Author = Fachschaftsrat Mathematik/Informatik der Studierendenschaft der Martin-Luther-Universität Halle-Wittenberg
+%! Date = 2020/04/20
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{mlualgorithm}[2020/03/10 v1.0]
+
+\RequirePackage[vlined,linesnumbered]{algorithm2e}
+\DontPrintSemicolon % Hide semicolons.
+\SetKwProg{Function}{function}{\ is}{end function} % Function definition.
+\SetKwComment{Comment}{\quad$\triangleright$\ }{}\SetCommentSty{itshape} % Comment style.
+\SetKw{Continue}{continue}
+\SetKwBlock{Repeat}{repeat}{}
+\SetNlSty{tiny}{}{} % Line number font.
+\SetNlSkip{0.5em} % Line number skip.
+\SetAlgoNlRelativeSize{0}
+\SetAlFnt{\footnotesize}
